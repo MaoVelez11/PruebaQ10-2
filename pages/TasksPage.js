@@ -270,7 +270,7 @@ async clickButtonAtCoordinates8(coordinates) {
 }
 async validation2(){
   // Navegar a una nueva página
-  await this.page.goto('https://questionnaire.evalart.com/cuestionario/execute/y_SLASH_QS4ujD7cF73L_PLUS__PLUS_zveahndJvMiOVkgzLgsi7DVmPC4_EQUALS_/norm/tt_SLASH_QiZ4QTaGIqRn2SHwNsmNs5h137A3NpE5rWiB_PLUS_BZw_EQUALS_');
+  await this.page.goto('https://questionnaire.evalart.com/cuestionario/execute/');
   await this.page.waitForTimeout(5000);
 }
 
